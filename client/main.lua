@@ -124,7 +124,7 @@ Citizen.CreateThread(function()
 		SetBlipAsShortRange(blip, true)
 
 		BeginTextCommandSetBlipName("STRING")
-		AddTextComponentSubstringPlayerName('Job Center')
+		AddTextComponentString('Job Center')
 		EndTextCommandSetBlipName(blip)
 	end
 end)
